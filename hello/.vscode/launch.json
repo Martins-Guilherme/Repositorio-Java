@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Fundamentos",
+      "request": "launch",
+      "mainClass": "Fundamentos",
+      "projectName": "hello_d75e40ae"
+    },
+    {
+      "type": "java",
       "name": "App",
       "request": "launch",
       "mainClass": "App",

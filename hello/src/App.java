@@ -27,9 +27,9 @@ public class App {
               case 5:
                 atribuicoes(args);
                 break;
-                default:
-                System.out.println("Opção inválida.");
-                main(args); // Chama o método main novamente para reiniciar o menu
+            default:
+            System.out.println("Opção inválida.");
+            main(args); // Chama o método main novamente para reiniciar o menu
             }
             scanner.close();
         } catch (Exception e) {
@@ -43,7 +43,7 @@ public class App {
         int numeroNormal = 100000;
         long numeroGrande = 1000000000000L;
         float numeroDecimal = 4.5f;
-        double numeroMuitoDecimal = 85.4;
+        double numeroMuitoDecimal = 85.4d;
         boolean verdadeiro = true;
         char cacter = 'A';
         String texto = "Olá, mundo!";
